@@ -28,7 +28,7 @@ namespace pizzaparlour
         private void button1_Click(object sender, EventArgs e)
         {
             numOfSlices = Convert.ToInt16(slicesInput.Text);
-            subtotal = numOfSlices * slicePrice; 
+            subtotal = numOfSlices * slicePrice;
             subTotalOutput.Text = subtotal.ToString("C");
         }
 
